@@ -17,6 +17,11 @@
  *
  *  Licensed to the public under the Apache License 2.0
  */
+<<<<<<< HEAD:themes/luci-theme-atmaterial-ColorIcon/htdocs/luci-static/atmaterial_ci/js/script.js
+=======
+ 
+ 
+>>>>>>> upstream/master:themes/luci-theme-argon/htdocs/luci-static/argon/js/script.js
 (function ($) {
     $(".main > .loading").fadeOut();
 
@@ -118,7 +123,20 @@
         window.location = $($(this).find("a")[0]).attr("href");
         return false;
     });
+<<<<<<< HEAD:themes/luci-theme-atmaterial-ColorIcon/htdocs/luci-static/atmaterial_ci/js/script.js
 
+=======
+	
+	/**
+     * fix submenu click
+     */
+    $("#maincontent > .container > .tabs > li").click(function () {
+		console.log("sub");
+        $(".main > .loading").fadeIn("fast");
+        window.location = $($(this).find("a")[0]).attr("href");
+        return false;
+    });
+>>>>>>> upstream/master:themes/luci-theme-argon/htdocs/luci-static/argon/js/script.js
     /**
      * get current node and open it
      */
@@ -205,7 +223,11 @@
         if (that.text().trim() == ""){
             that.css("display", "none");
         }
+<<<<<<< HEAD:themes/luci-theme-atmaterial-ColorIcon/htdocs/luci-static/atmaterial_ci/js/script.js
     });*/
+=======
+    });
+>>>>>>> upstream/master:themes/luci-theme-argon/htdocs/luci-static/argon/js/script.js
 
 
     $(".main-right").focus();
