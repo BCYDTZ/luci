@@ -29,22 +29,27 @@ endef
 
 ifeq ($(ARCH),arm)
 	LingTi_ARCH:=arm
+	PKG_MD5SUM:=skip
 endif
 
 ifeq ($(ARCH),aarch64)
 	LingTi_ARCH:=aarch64
+	PKG_MD5SUM:=skip
 endif
 
 ifeq ($(ARCH),mips)
 	LingTi_ARCH:=mips
+	PKG_MD5SUM:=skip
 endif
 
 ifeq ($(ARCH),mipsel)
 	LingTi_ARCH:=mipsel
+	PKG_MD5SUM:=skip
 endif
 
 ifeq ($(ARCH),x86_64)
 	LingTi_ARCH:=x86_64
+	PKG_MD5SUM:=skip
 endif
 
 PKG_SOURCE_URL:=http://lingti-1302055788.file.myqcloud.com/router/$(PKG_VERSION)/lingti-router-$(LingTi_ARCH).tar.gz?
