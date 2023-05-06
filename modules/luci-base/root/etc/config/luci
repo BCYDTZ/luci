@@ -1,6 +1,6 @@
 config core main
 	option lang auto
-	option mediaurlbase /luci-static/argonne
+	option mediaurlbase /luci-static/argone
 	option resourcebase /luci-static/resources
 	
 config extern flash_keep
