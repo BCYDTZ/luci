@@ -10,7 +10,7 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=LingTiGameAcc
-PKG_VERSION:=1.7.3
+PKG_VERSION:=1.7.6
 PKG_RELEASE:=1
 
 include $(INCLUDE_DIR)/package.mk
